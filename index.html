@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Love Calculator</title>
 </head>
+
 <body>
     <div class="container">
         <h2>Love Calculator</h2>
         <div class="love-calculator">
             <label for="name1">Your Name: </label>
             <input type="text" name="name1" id="name1" placeholder="Enter your name">
-            
-            <label for="name1">Your Name: </label>
-            <input type="text" name="name1" id="name1" placeholder="Enter your name">
 
+            <label for="name1">Crush's Name: </label>
+            <input type="text" name="name1" id="name1" placeholder="Enter your crush's name">
+
+            <button onclick="calculateLove()">Calculate</button>
+        </div>
+        <div id="result">
+            Result
         </div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
